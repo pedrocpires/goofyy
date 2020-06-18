@@ -1,0 +1,83 @@
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=latin-ext'); */
+@import './colors.css';
+
+@font-face{
+  font-family: Vrugoth;
+  src: url('../assets/fonts/VRUGOTH.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: Peace-Maker;
+  src: url('../assets/fonts/Peace\ Maker.otf');
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 0;
+}
+
+html,
+body,
+#contentContainer {
+  min-height: -webkit-fill-available;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font: 14px 'Roboto', sans-serif;
+}
+
+.contentContainer {
+  position: relative;
+  margin-left: 100px;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+  color: var(--clr-primary-light);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--clr-aux-light);
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+body{
+    background-color: var(--clr-main);
+    color: #ffffff;
+    box-sizing: border-box;
+    margin: 0px;
+    border: 1px solid tomato;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    max-width: 900px;
+}

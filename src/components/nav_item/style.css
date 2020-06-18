@@ -1,0 +1,11 @@
+/* Created by Pedro Pires [https://github.com/pedrocpires] */
+
+/* Create the new component's CSS style here */
+.Nav_item {
+    font: 14px 'Roboto', sans-serif;
+    color: var(--clr-white);
+    font-weight: bold;
+    line-height: 22px;
+    padding: 8px 0.5rem;
+    letter-spacing: 1px;
+}

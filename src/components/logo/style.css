@@ -1,0 +1,17 @@
+/* Created by Pedro Pires [https://github.com/pedrocpires] */
+
+/* Create the new component's CSS style here */
+
+.Logo {
+    color: gold;
+}
+
+.Logo h1 {
+    font: 36px 'Roboto', sans-serif;
+    font-weight: 900;
+    background: var(--clr-gradient-4);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: transparent;
+}

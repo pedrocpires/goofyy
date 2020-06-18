@@ -1,0 +1,9 @@
+/* Created by Pedro Pires [https://github.com/pedrocpires] */
+
+/* Create the new component's CSS style here */
+.Portfolioconteiner {
+    color: var(--clr-white);
+    background-color: var(--clr-content);
+    margin: 25px;
+    padding: 40px;
+}

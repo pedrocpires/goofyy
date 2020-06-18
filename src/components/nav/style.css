@@ -1,0 +1,12 @@
+/* Created by Pedro Pires [https://github.com/pedrocpires] */
+
+/* Create the new component's CSS style here */
+.Nav {
+    color: gold;
+    display: flex;
+}
+
+.Nav ul{
+    display: flex;
+    justify-content: space-around;
+}
