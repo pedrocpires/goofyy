@@ -4,10 +4,12 @@ import React from 'react';
 import './style.css';
 
 function Logo() {
-const logoName = "< PEDRO />"
+const logoName = "< LOGO />"
 return (
     <div className="Logo">
-    <h1>{logoName || "PEDRO PIRES"}</h1>
+        <h2>
+            <a href="/">{logoName || "Pedro Dev"}</a>
+        </h2>
     </div>
 );
 }

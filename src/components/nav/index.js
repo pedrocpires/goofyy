@@ -3,7 +3,7 @@
 import React from 'react';
 import './style.css';
 
-import Nav_item from '../nav_item'
+import NavItem from '../navItem'
 
 function Nav() {
     let menuItens = ["Home", "About", "Resume", "Portfolio", "Blog", "Contact"]
@@ -12,7 +12,7 @@ return (
         <ul>
         {
             menuItens.map(item => {
-                return <Nav_item item = {item}/>
+                return <NavItem item = {item}/>
             })
         }
         </ul>

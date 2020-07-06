@@ -5,13 +5,20 @@ import './style.css';
 
 import Logo from '../logo'
 import Nav from '../nav'
+import Intro from '../intro'
 
 function Header() {
 return (
-    <div className="Header">
-    <Logo/>
-    <Nav/>
-    </div>
+    <header className="Header">
+        <div className="Menu">
+            <Logo/>
+            <Nav/>
+        </div>
+        <div className="Intro">
+            <Intro/>
+        </div>
+    
+    </header>
 );
 }
 

@@ -1,9 +1,8 @@
 /* Created by Pedro Pires [https://github.com/pedrocpires] */
 
 /* Create the new component's CSS style here */
-.Content_title {
-    color: var(--yellow);
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 110%;
+.About {
+    color: gold;
+    padding: 27px 0px;
+    display: block;
 }

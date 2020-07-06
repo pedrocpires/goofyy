@@ -1,0 +1,12 @@
+/* Created by Pedro Pires [https://github.com/pedrocpires] */
+
+/* Create the new component's CSS style here */
+.ContentTitle {
+    color: var(--yellow);
+    font-weight: 700;
+    line-height: 110%;
+}
+
+.ContentTitle h3{
+    font-size: 28px;
+}

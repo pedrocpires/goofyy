@@ -3,12 +3,13 @@
 import React from 'react';
 import './style.css';
 
-function Nav_item(props) {
+function NavItem(props) {
 return (
-    <div className="Nav_item">
+    <div className="NavItem">
         <li>{props.item}</li>
     </div>
 );
+
 }
 
-export default Nav_item;
+export default NavItem;
