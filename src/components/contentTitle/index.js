@@ -1,18 +1,19 @@
 // Created by Pedro Pires [https://github.com/pedrocpires]
 
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 function ContentTitle(props) {
-return (
+  const { title } = props;
+  return (
     <div className="ContentTitle">
-    <h3>{props.title}</h3>
+      <h3>{title}</h3>
     </div>
-);
+  );
 }
 
 ContentTitle.defaultProps = {
-    title: ' Title'
-}
+  title: " Title",
+};
 
 export default ContentTitle;

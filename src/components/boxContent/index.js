@@ -1,14 +1,11 @@
 // Created by Pedro Pires [https://github.com/pedrocpires]
 
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
-function Boxcontent() {
-return (
-    <div className="Boxcontent">
-    <h1> Hello!. Boxcontent is a new component, work on it here!</h1>
-    </div>
-);
+function Boxcontent(props) {
+  const { children } = props;
+  return <div className="Boxcontent">{children}</div>;
 }
 
 export default Boxcontent;

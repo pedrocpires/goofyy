@@ -4,7 +4,7 @@
 .Conteiner {
     color: var(--clr-white);
     background-color: var(--clr-content);
-    padding: 40px;
+    padding: 0px 15px;
     border-radius: 3px;
     max-width: 1140px;
     width: 100%;
