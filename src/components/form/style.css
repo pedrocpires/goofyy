@@ -1,8 +1,10 @@
 /* Created by Pedro Pires [https://github.com/pedrocpires] */
 
 /* Create the new component's CSS style here */
-.Boxcontent {
-  color: gold;
-  padding: 40px;
+.Form {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: start;
+  align-items: center;
 }

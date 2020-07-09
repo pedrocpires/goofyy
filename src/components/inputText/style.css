@@ -1,0 +1,26 @@
+/* Created by Pedro Pires [https://github.com/pedrocpires] */
+
+/* Create the new component's CSS style here */
+.Inputtext {
+  border: none;
+  border-bottom: 1px solid var(--clr-grey-5);
+  background: transparent;
+  color: var(--white);
+  margin: 0px 15px;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.Inputtext:focus {
+  border-bottom: 1px solid var(--yellow);
+}
+
+/* .Inputtext:focus,
+.Inputtext:valid {
+  transform: translateY(-25px);
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+} */

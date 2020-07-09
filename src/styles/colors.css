@@ -1,6 +1,7 @@
 :root {
   --white: #ffffff;
-  --yellow: #FF8C05;
+  --yellow: #ff8c05;
+  --purple: #ba68c8;
 
   --clr-primary: #262626;
   --clr-primary-light: #6797ce;
@@ -27,30 +28,81 @@
   --clr-gold-light: #e0c56e;
 
   --clr-grey-0: #aaaaaa;
-  --clr-grey-1: #102a42;
-  --clr-grey-5: #617d98;
+  --clr-grey-1: #262626;
+  --clr-grey-5: #525252;
   --clr-grey-10: #f5f6f7;
   --clr-ultra-light: #effef8;
-  --clr-white: #dcdcf3;
 
-  --clr-gradient-1:
-    linear-gradient(135deg, hsla(206.04, 100%, 57.56%, 1) 0%, hsla(206.04, 100%, 57.56%, 0) 70%),
-    linear-gradient(25deg, hsla(31.36, 100%, 53.34%, 1) 10%, hsla(31.36, 100%, 53.34%, 0) 80%),
-    linear-gradient(315deg, hsla(5.21, 100%, 55.12%, 1) 15%, hsla(5.21, 100%, 55.12%, 0) 80%),
-    linear-gradient(245deg, hsla(124.53, 100%, 50%, 1) 100%, hsla(124.53, 100%, 50%, 0) 70%);
-  --clr-gradient-2:
-    linear-gradient(135deg, hsla(199.23, 96.46%, 48.52%, 1) 0%, hsla(199.23, 96.46%, 48.52%, 0) 70%),
-    linear-gradient(25deg, hsla(85.32, 97.79%, 47.39%, 1) 10%, hsla(85.32, 97.79%, 47.39%, 0) 80%),
-    linear-gradient(315deg, hsla(340.52, 94.37%, 47.37%, 1) 15%, hsla(340.52, 94.37%, 47.37%, 0) 80%),
-    linear-gradient(245deg, hsla(141.56, 92.14%, 43.9%, 1) 100%, hsla(141.56, 92.14%, 43.9%, 0) 70%);
-  --clr-gradient-3:
-    linear-gradient(135deg, hsla(141.17, 95.11%, 46.67%, 1) 0%, hsla(141.17, 95.11%, 46.67%, 0) 70%),
-    linear-gradient(25deg, hsla(49.05, 90.97%, 48.24%, 1) 10%, hsla(49.05, 90.97%, 48.24%, 0) 80%),
-    linear-gradient(315deg, hsla(43.69, 98.02%, 44.92%, 1) 15%, hsla(43.69, 98.02%, 44.92%, 0) 80%),
-    linear-gradient(245deg, hsla(321.85, 99.09%, 45.81%, 1) 100%, hsla(321.85, 99.09%, 45.81%, 0) 70%);
-  --clr-gradient-4:
-    linear-gradient(151deg, hsla(167.06, 100%, 50%, 1) 28%, hsla(167.06, 100%, 50%, 0) 70%),
-    linear-gradient(343deg, hsla(15.06, 100%, 50%, 1) 31%, hsla(15.06, 100%, 50%, 0) 100%);
+  --clr-gradient-1: linear-gradient(
+      135deg,
+      hsla(206.04, 100%, 57.56%, 1) 0%,
+      hsla(206.04, 100%, 57.56%, 0) 70%
+    ),
+    linear-gradient(
+      25deg,
+      hsla(31.36, 100%, 53.34%, 1) 10%,
+      hsla(31.36, 100%, 53.34%, 0) 80%
+    ),
+    linear-gradient(
+      315deg,
+      hsla(5.21, 100%, 55.12%, 1) 15%,
+      hsla(5.21, 100%, 55.12%, 0) 80%
+    ),
+    linear-gradient(
+      245deg,
+      hsla(124.53, 100%, 50%, 1) 100%,
+      hsla(124.53, 100%, 50%, 0) 70%
+    );
+  --clr-gradient-2: linear-gradient(
+      135deg,
+      hsla(199.23, 96.46%, 48.52%, 1) 0%,
+      hsla(199.23, 96.46%, 48.52%, 0) 70%
+    ),
+    linear-gradient(
+      25deg,
+      hsla(85.32, 97.79%, 47.39%, 1) 10%,
+      hsla(85.32, 97.79%, 47.39%, 0) 80%
+    ),
+    linear-gradient(
+      315deg,
+      hsla(340.52, 94.37%, 47.37%, 1) 15%,
+      hsla(340.52, 94.37%, 47.37%, 0) 80%
+    ),
+    linear-gradient(
+      245deg,
+      hsla(141.56, 92.14%, 43.9%, 1) 100%,
+      hsla(141.56, 92.14%, 43.9%, 0) 70%
+    );
+  --clr-gradient-3: linear-gradient(
+      135deg,
+      hsla(141.17, 95.11%, 46.67%, 1) 0%,
+      hsla(141.17, 95.11%, 46.67%, 0) 70%
+    ),
+    linear-gradient(
+      25deg,
+      hsla(49.05, 90.97%, 48.24%, 1) 10%,
+      hsla(49.05, 90.97%, 48.24%, 0) 80%
+    ),
+    linear-gradient(
+      315deg,
+      hsla(43.69, 98.02%, 44.92%, 1) 15%,
+      hsla(43.69, 98.02%, 44.92%, 0) 80%
+    ),
+    linear-gradient(
+      245deg,
+      hsla(321.85, 99.09%, 45.81%, 1) 100%,
+      hsla(321.85, 99.09%, 45.81%, 0) 70%
+    );
+  --clr-gradient-4: linear-gradient(
+      151deg,
+      hsla(167.06, 100%, 50%, 1) 28%,
+      hsla(167.06, 100%, 50%, 0) 70%
+    ),
+    linear-gradient(
+      343deg,
+      hsla(15.06, 100%, 50%, 1) 31%,
+      hsla(15.06, 100%, 50%, 0) 100%
+    );
   --clr-gradient-5: linear-gradient(to left, #d61a5e, #ff8c05);
 
   --transition: all 0.3s linear;

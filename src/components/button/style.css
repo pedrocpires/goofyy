@@ -1,0 +1,15 @@
+/* Created by Pedro Pires [https://github.com/pedrocpires] */
+
+/* Create the new component's CSS style here */
+.Button {
+  cursor: pointer;
+  background: var(--clr-gradient-5);
+  padding: 13px 20px;
+  color: var(--white);
+  border-radius: 2px;
+  font-weight: 700;
+  font-size: 16px;
+  overflow: hidden;
+  border: none;
+  width: fit-content;
+}

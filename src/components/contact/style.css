@@ -2,7 +2,34 @@
 
 /* Create the new component's CSS style here */
 .Contact {
-    color: gold;
-    padding: 27px 0px;
-    display: block;
+  color: gold;
+  padding: 27px 0px;
+  display: block;
+}
+
+.contactContent {
+  grid-template-columns: 1fr 1fr;
+}
+
+.formContactHome form {
+  width: 100%;
+}
+
+.infosContact {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: var(--white);
+  justify-content: space-around;
+}
+
+.infosContact h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.formContact {
+  display: flex;
+  flex-direction: column;
 }

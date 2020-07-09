@@ -2,7 +2,34 @@
 
 /* Create the new component's CSS style here */
 .About {
-    color: gold;
-    padding: 27px 0px;
-    display: block;
+  color: gold;
+  padding: 27px 0px;
+  display: block;
+}
+
+.aboutContent {
+  grid-template-columns: 2fr 3fr;
+}
+
+.imageAbout img {
+  width: 100%;
+}
+
+.infosAbout {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  color: var(--white);
+  justify-content: space-around;
+}
+
+.infosAbout h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.infosAbout p {
+  font-size: 15px;
+  line-height: 22px;
 }

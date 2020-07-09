@@ -13,7 +13,7 @@ function ContentTitle(props) {
 }
 
 ContentTitle.defaultProps = {
-  title: " Title",
+  title: "Title",
 };
 
 export default ContentTitle;
