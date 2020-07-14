@@ -2,11 +2,10 @@
 
 /* Create the new component's CSS style here */
 .Nav {
-    color: gold;
-    display: flex;
+  display: flex;
 }
 
-.Nav ul{
-    display: flex;
-    justify-content: space-around;
+.Nav ul {
+  display: flex;
+  justify-content: space-around;
 }

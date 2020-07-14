@@ -2,7 +2,8 @@
 
 /* Create the new component's CSS style here */
 .Boxcontent {
-  color: gold;
   padding: 40px;
   display: flex;
+  background-color: var(--clr-content);
+  color: var(--clr-white);
 }

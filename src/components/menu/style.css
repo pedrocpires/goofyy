@@ -1,0 +1,13 @@
+/* Created by Pedro Pires [https://github.com/pedrocpires] */
+
+/* Create the new component's CSS style here */
+.Menu {
+  background-color: var(--clr-content);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 40px;
+  margin: 27px auto;
+  width: 100%;
+  max-width: 1110px;
+}

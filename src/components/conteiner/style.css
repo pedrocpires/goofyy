@@ -2,11 +2,9 @@
 
 /* Create the new component's CSS style here */
 .Conteiner {
-    color: var(--clr-white);
-    background-color: var(--clr-content);
-    padding: 0px 15px;
-    border-radius: 3px;
-    max-width: 1140px;
-    width: 100%;
-    margin: 0px auto;
+  padding: 0px 15px;
+  border-radius: 3px;
+  max-width: 1140px;
+  width: 100%;
+  margin: 0px auto;
 }

@@ -2,7 +2,10 @@
 
 /* Create the new component's CSS style here */
 .Footer {
-    color: gold;
-    padding: 27px 0px;
-    display: block;
+  color: var(--white);
+}
+
+.boxFooter {
+  background-color: var(--clr-content);
+  padding: 27px 100px;
 }

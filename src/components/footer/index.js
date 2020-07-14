@@ -9,7 +9,9 @@ function Footer() {
   return (
     <session className="Footer">
       <Conteiner>
-        <p> Copyright© All Right Reserved </p>
+        <div className="boxFooter">
+          <p> Copyright© All Right Reserved </p>
+        </div>
       </Conteiner>
     </session>
   );

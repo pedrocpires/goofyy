@@ -11,7 +11,7 @@ function Nav() {
     <nav className="Nav">
       <ul>
         {menuItens.map((item) => (
-          <NavItem item={item} />
+          <NavItem item={item} link={item.toLowerCase()} />
         ))}
       </ul>
     </nav>

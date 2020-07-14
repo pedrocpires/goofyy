@@ -3,18 +3,14 @@
 import React from "react";
 import "./style.css";
 
-import Logo from "../logo";
-import Nav from "../nav";
-import Intro from "../intro";
+import Menu from "../menu";
 
-function Header() {
+function Header(props) {
+  const { children } = props;
   return (
     <header className="Header">
-      <div className="Menu">
-        <Logo />
-        <Nav />
-      </div>
-      <Intro />
+      <Menu />
+      {children}
     </header>
   );
 }
