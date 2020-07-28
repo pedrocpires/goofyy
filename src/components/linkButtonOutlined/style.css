@@ -1,0 +1,25 @@
+/* Created by Pedro Pires [https://github.com/pedrocpires] */
+
+/* Create the new component's CSS style here */
+.LinkbuttonOutlined {
+  cursor: pointer;
+  background: transparent;
+  height: 36px;
+  min-width: 64px;
+  padding: 0px 16px;
+  color: var(--white);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  overflow: hidden;
+  border: 1px solid var(--white);
+  letter-spacing: 1px;
+  transition: opacity 60ms linear, background-color 60ms linear;
+}
+.LinkbuttonOutlined:hover,
+.LinkbuttonOutlined:focus {
+  background-color: #ffffff14;
+}
+.LinkbuttonOutlined:active {
+  background-color: #ffffff3d;
+}

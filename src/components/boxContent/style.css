@@ -2,8 +2,10 @@
 
 /* Create the new component's CSS style here */
 .Boxcontent {
-  padding: 40px;
+  padding: 20px;
   display: flex;
-  background-color: var(--clr-content);
+  flex-direction: column;
   color: var(--clr-white);
+  overflow: hidden;
+  max-width: 100%;
 }

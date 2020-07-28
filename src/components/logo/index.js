@@ -4,7 +4,7 @@ import React from "react";
 import "./style.css";
 
 function Logo() {
-  const logoName = "< LOGO />";
+  const logoName = "GOOFYY";
   return (
     <div className="Logo">
       <h2>

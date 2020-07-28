@@ -2,22 +2,19 @@
 
 /* Create the new component's CSS style here */
 
-.Logo h2{
-    padding: 5px 0px;
-    margin-right: 16px;
-    line-height: 110%;
+.Logo h2 {
+  font: 36px "Baron Neue";
+  color: var(--clr-primary);
+  font-weight: 400;
+  padding: 5px;
+  letter-spacing: 0px;
 }
 
 .Logo a {
-    font: 36px 'Roboto', sans-serif;
-    font-weight: 900;
-    line-height: 110%;
-    background: var(--clr-gradient-5);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: transparent;
-    margin-right: 16px;
-    padding: 5px 0px;
+  color: var(--clr-primary);
+  vertical-align: sub;
 }
 
+.Logo a:hover {
+  color: var(--clr-primary);
+}

@@ -10,11 +10,11 @@
   letter-spacing: 1px;
 }
 
-a {
-  color: var(--clr-white);
+.NavItem a {
+  color: var(--white);
 }
 
-a:hover {
+.NavItem a:hover {
   text-decoration: none;
   color: var(--yellow);
 }

@@ -3,6 +3,8 @@
 /* Create the new component's CSS style here */
 .Footer {
   color: var(--white);
+  padding: 27px 0px;
+  display: block;
 }
 
 .boxFooter {

@@ -3,13 +3,15 @@
 import React from "react";
 import "./style.css";
 
+import { Link } from "react-router-dom";
+
 function NavItem(props) {
   const { item, link } = props;
   return (
     <div className="NavItem">
-      <a href={link}>
-        <li>{item}</li>
-      </a>
+      <li>
+        <Link to={link}>{item}</Link>
+      </li>
     </div>
   );
 }

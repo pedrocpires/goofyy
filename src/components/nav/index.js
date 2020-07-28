@@ -6,7 +6,7 @@ import "./style.css";
 import NavItem from "../navItem";
 
 function Nav() {
-  const menuItens = ["Home", "About", "Resume", "Portfolio", "Blog", "Contact"];
+  const menuItens = ["About", "Resume", "Portfolio", "Blog", "Contact"];
   return (
     <nav className="Nav">
       <ul>

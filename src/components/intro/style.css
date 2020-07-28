@@ -2,41 +2,55 @@
 
 /* Create the new component's CSS style here */
 .Intro {
-  color: gold;
-  padding: 27px 0px;
   display: block;
+  margin-top: 56px;
 }
 
 .imageIntro img {
-  width: 100%;
+  width: calc(100% - 32px);
+  margin: 48px 16px;
+  /* object-fit: contain; */
 }
 
 .infosIntro {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  align-items: center;
   color: var(--white);
   justify-content: space-around;
 }
 
 .infosIntro span {
-  font-size: 30px;
-  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
   letter-spacing: 1px;
-  text-transform: uppercase;
   color: var(--white);
+  text-align: justify;
+  text-align-last: center;
+  vertical-align: middle;
+  margin: 12px 0px 36px 0px;
 }
 
 .infosIntro h2 {
-  font-size: 90px;
+  font-size: 48px;
   font-weight: 900;
-  background: var(--clr-gradient-5);
-  line-height: 87px;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
+  line-height: 56px;
+  margin: 12px 0px;
 }
 
 .introContent {
-  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
+  /* height: calc(90vh - 56px); */
+}
+
+.introButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 16px;
+  width: 100%;
+}
+
+.introButtons input {
+  width: 100%;
 }

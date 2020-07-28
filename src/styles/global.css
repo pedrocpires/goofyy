@@ -1,16 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import "./colors.css";
-
-@font-face {
-  font-family: Vrugoth;
-  src: url("../assets/fonts/VRUGOTH.otf");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: Peace-Maker;
-  src: url("../assets/fonts/Peace\ Maker.otf");
-}
+@import "./fonts.css";
+@import "./fordev.css";
 
 * {
   margin: 0;
@@ -43,6 +34,12 @@ button {
   line-height: 22px;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 .contentContainer {
   position: relative;
   margin-left: 100px;
@@ -52,7 +49,7 @@ button {
 a {
   text-decoration: none;
   transition: all 0.5s;
-  color: var(--clr-primary-light);
+  color: var(--clr-primary);
 }
 
 a:hover {
@@ -88,6 +85,10 @@ body {
   display: flex;
 }
 
+.column {
+  flex-direction: column;
+}
+
 h1,
 h2,
 h3,
@@ -99,4 +100,5 @@ h6 {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   color: #fff;
+  letter-spacing: 2px;
 }

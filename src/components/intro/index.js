@@ -6,24 +6,28 @@ import "./style.css";
 import Conteiner from "../conteiner";
 import BoxContent from "../boxContent";
 import LinkButton from "../linkButton";
-import Programmer from "../../assets/img/Programming.gif";
+import LinkButtonOutlined from "../linkButtonOutlined";
+import ImgConcept from "../../assets/img/concept.png";
 
 function Intro() {
   return (
     <session className="Intro">
       <Conteiner>
         <BoxContent>
-          <div className="introContent grid">
+          <div className="introContent flex column">
             <div className="infosIntro">
-              <span>Eu sou Pedro Pires</span>
-              <h2>Desenvolvedor Web</h2>
-              <LinkButton
-                value="Entre em Contato"
-                href="http://google.com.br"
-              />
+              <h2>Web Design</h2>
+              <span>
+                Criamos o seu website do zero com foco em SEO, responsividade e
+                a identidade visual da sua marca
+              </span>
+              <div className="introButtons">
+                <LinkButtonOutlined value="Saiba Mais" href="#Services" />
+                <LinkButton value="Entre em Contato" href="/" />
+              </div>
             </div>
             <div className="imageIntro">
-              <img src={Programmer} alt="Programmer" />
+              <img src={ImgConcept} alt="Desenvolvimento de Sites" />
             </div>
           </div>
         </BoxContent>
